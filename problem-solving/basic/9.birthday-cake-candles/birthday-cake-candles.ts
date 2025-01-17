@@ -1,5 +1,4 @@
 function birthdayCakeCandles(candles: number[]): number {
-
   if (candles.length < 1) {
     return 0;
   }

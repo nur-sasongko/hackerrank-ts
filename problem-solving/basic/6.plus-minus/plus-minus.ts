@@ -3,10 +3,6 @@ function plusMinus(arr: number[]): void {
   let negativeNum: number = 0;
   let zeroNum: number = 0;
   
-  // for(let i: number = 0; i < arr.length; i++){
-  //   if()
-  // }
-
   arr.forEach((item: number) => {
     if(item > 0){
       positiveNum++;

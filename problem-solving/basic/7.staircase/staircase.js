@@ -3,7 +3,7 @@ function staircase(n) {
         var line = '';
         for (var j = 0; j < n; j++) {
             if (j < n - (i + 1)) {
-                line += '-';
+                line += ' ';
                 continue;
             }
             line += '#';
